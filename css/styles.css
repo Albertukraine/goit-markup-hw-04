@@ -291,7 +291,6 @@ img {
 /* наша команда */
 .our-team-section {
   display: flex;
-  height: 648px;
   background-color: var(--filter-btn-background-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -362,7 +361,7 @@ img {
 }
 
 .employee-social-link {
-  fill: var(--card-description-color);
+  fill: var(--logo-icon-border);
   display: flex;
   width: 44px;
   height: 44px;
@@ -406,8 +405,12 @@ img {
   justify-content: center;
 }
 
-.client-list-button {
-  fill: var(--logo-icon-border);
+.client-item{
+  margin-right: 30px;
+}
+
+.client-list-link {
+  color: var(--logo-icon-border);
   display: flex;
   width: 170px;
   height: 92px;
@@ -417,25 +420,19 @@ img {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
 }
 
 .client-logo {
-  fill: inherit;
+  fill: currentColor;
 }
 
-.client-list-button:hover,
-.client-list-button:focus {
-  fill: var(--accent-color);
-  background-color: var(--background-body-color);
-}
-
-.client-list .client-list-button:last-child {
+.client-list .client-item:last-child {
   margin-right: 0;
 }
 
-.client-list-button:hover,
-.client-list-button:focus {
+.client-list-link:hover,
+.client-list-link:focus {
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -531,8 +528,7 @@ img {
 
 .studio-social-link:hover,
 .studio-social-link:focus {
-  fill: var(--accent-color);
-  background-color: var(--background-body-color);
+  background-color: var(--accent-color);
 }
 
 /* portfolio page */
