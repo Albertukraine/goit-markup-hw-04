@@ -48,6 +48,7 @@ img {
 .list {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 /* header - logo - nav - contacts */
 
