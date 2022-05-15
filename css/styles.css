@@ -63,8 +63,8 @@ img {
 .header-item {
   display: flex;
   margin: 0;
-
 }
+
 .header-item .item {
   margin-right: 50px;
 }
@@ -426,8 +426,10 @@ img {
 .client-list-item:focus {
   border: 1px solid var(--accent-color);
 }
-.client-logo:hover,
-.client-logo:focus {
+
+
+.client-list-item .client-logo:hover,
+.client-list-item .client-logo:focus {
   fill: var(--accent-color);
 }
 
