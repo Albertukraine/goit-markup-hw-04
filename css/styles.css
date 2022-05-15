@@ -63,6 +63,7 @@ img {
 .header-item {
   display: flex;
   margin: 0;
+
 }
 .header-item .item {
   margin-right: 50px;
@@ -444,6 +445,7 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 60px;
 }
 
 .white {
@@ -465,8 +467,11 @@ img {
   display: inline-block;
   width: 231px;
   height: 81px;
-  margin: 0;
+  margin-right: 70px;
   padding: 0;
+}
+.address{
+  display: flex;
 }
 .footer-wrapper {
   margin-right: 70px;
@@ -491,10 +496,10 @@ img {
 
 .join-links {
   width: 206px;
-  height: 80px;
 }
 
 .join-title {
+  display: inline-block;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
