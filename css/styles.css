@@ -405,32 +405,37 @@ img {
   justify-content: center;
 }
 .client-logo {
-  fill: var(--logo-icon-border);
+  fill: inherit;
 }
-.client-list-item {
+.client-list-button {
+  fill: var(--logo-icon-border);
   display: flex;
   width: 170px;
   height: 92px;
   display: flex;
   border: solid 1px var(--logo-icon-border);
+  background-color: var(--background-body-color);
   border-radius: 4px;
   align-items: center;
   justify-content: center;
   margin-right: 30px;
 }
-.client-list .client-list-item:last-child {
+
+
+.client-list-button:hover,
+.client-list-button:focus {
+  fill: var(--accent-color);
+  background-color: var(--background-body-color);
+}
+
+
+.client-list .client-list-button:last-child {
   margin-right: 0;
 }
 
-.client-list-item:hover,
-.client-list-item:focus {
+.client-list-button:hover,
+.client-list-button:focus {
   border: 1px solid var(--accent-color);
-}
-
-
-.client-list-item .client-logo:hover,
-.client-list-item .client-logo:focus {
-  fill: var(--accent-color);
 }
 
 /* footer */
