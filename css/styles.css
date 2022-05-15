@@ -404,9 +404,7 @@ img {
 .client-list {
   justify-content: center;
 }
-.client-logo {
-  fill: inherit;
-}
+
 .client-list-button {
   fill: var(--logo-icon-border);
   display: flex;
@@ -421,13 +419,15 @@ img {
   margin-right: 30px;
 }
 
+.client-logo {
+  fill: inherit;
+}
 
 .client-list-button:hover,
 .client-list-button:focus {
   fill: var(--accent-color);
   background-color: var(--background-body-color);
 }
-
 
 .client-list .client-list-button:last-child {
   margin-right: 0;
